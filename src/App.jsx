@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './component/Navbar'
 import Thirdsection from './component/Thirdsection'
+import Fourth from './component/fourth'
+import Cards from './component/Cards'
 
 function App() {
 
@@ -13,6 +15,9 @@ function App() {
 
 
     <Thirdsection />
+    <Fourth />
+
+    <Cards />
     
      
     </>
