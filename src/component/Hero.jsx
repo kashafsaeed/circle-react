@@ -4,8 +4,6 @@ import hero from "../assets/images/hero.png"
 const Hero = () => {
   return (
     <>
-    
-
 <section class="bg-neutral-primary">
     <div class="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16  bg-[#EDFEFF]">
         <h1 class="mb-6 text-4xl font-bold tracking-tighter text-heading md:text-5xl lg:text-6xl">A powerful online engagement tool <br /> that’s intuitive and simple to use.</h1>
