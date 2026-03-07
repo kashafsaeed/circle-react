@@ -1,37 +1,36 @@
 import React from 'react'
-
 const Navbar = () => {
   return (
     <>
-      <nav className='bg-gray-800 text-white  w-full'>
-        <div className='container mx-auto flex justify-between items-center'>
-          <div className='text-1xl font-bold'>
-          <ul className='flex space-x-4'>
-            <li><a href="#" className='hover:text-gray-400'>Feature</a></li>
-            <li><a href="#" className='hover:text-gray-400'>Pricing</a></li>
-            <li><a href="#" className='hover:text-gray-400'>Testimonial</a></li>
-            <li><a href="#" className='hover:text-gray-400'>Resources</a></li>
-            
-           <img src="" alt="" />
-           
-          </ul>
-          </div>
-          <div>
-            <ul className='flex space-x-4'>
-            <li><a href="#" className='hover:text-gray-400'>Company</a></li>
-            <li><a href="#" className='hover:text-gray-400'>Contact</a></li>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
-              Login
-            </button>
-            </ul>
+    <nav className="w-full border-b border-gray-200 bg-white py-4 px-6">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
+        
+        <div className="hidden md:flex space-x-8 items-center text-gray-600 font-medium">
+          <a href="#" className="hover:text-black transition">Features</a>
+          <a href="#" className="hover:text-black transition">Pricing</a>
+          <a href="#" className="hover:text-black transition">Testimonials</a>
+          <a href="#" className="hover:text-black transition">Resources</a>
+        </div>
+
+        <div className="flex items-center space-x-2">
+          <div className="w-8 h-8 rounded-full border-4 border-cyan-400"></div> 
+          <span className="text-2xl font-bold text-gray-800 tracking-tight">circle</span>
+        </div>
+
+        <div className="flex items-center space-x-8">
+          <div className="hidden md:flex space-x-8 text-gray-600 font-medium">
+            <a href="#" className="hover:text-black transition">Company</a>
+            <a href="#" className="hover:text-black transition">Contact</a>
           </div>
           
-          
-            
-          </div>
-        
-        
-      </nav>
+          <button className="border-2 border-cyan-400 text-cyan-500 px-8 py-2 rounded-sm font-bold hover:bg-cyan-50 transition">
+            Login
+          </button>
+        </div>
+
+      </div>
+    </nav>
+ 
 
 
     </>
