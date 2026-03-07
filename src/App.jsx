@@ -10,6 +10,8 @@ import Seventh from './component/Seventh'
 import Fifth from './component/Fifth'
 import Hero from './component/Hero'
 import First from './component/First'
+import Testimonials from './component/Testimonial'
+import Footer from './component/Footer'
 
 function App() {
 
@@ -18,12 +20,13 @@ function App() {
     <Navbar />
     <Hero />
     <First />
-
     <Thirdsection />
     <Fourth />
     <Fifth />
+    <Testimonials />
     <Seventh />
     <Cards />
+    <Footer />
     
      
     </>
