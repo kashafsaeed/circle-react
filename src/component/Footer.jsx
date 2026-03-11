@@ -10,20 +10,20 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
 
                     {/* Brand/Location Section */}
-                    <div className="flex flex-col items-start">
+                     <div className="flex flex-col items-start">
                         <div className="relative w-48 h-28 flex items-center justify-center overflow-hidden">
-                            {/* Map Image as Background */}
                             <img
                                 src={ img  }
                                 alt="map"
                                 className="absolute inset-0  w-full h-full brightness-50 object-cover"
                             />
-                            {/* Overlay Text */}
                             <span className="relative z-10 text-[11px] text-white font-bold text-center px-4 leading-tight">
                                 Made with lots of ❤️ <br /> in San Francisco
                             </span>
                         </div>
-                    </div>
+                    </div> 
+                 
+
 
                     {/* Products Column */}
                     <div>
@@ -69,7 +69,8 @@ const Footer = () => {
                     {/* Social Icons */}
                     <div className="flex space-x-4 mb-4 md:mb-0">
                         <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black font-bold cursor-pointer hover:bg-cyan-400 transition">in</div>
-                        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black cursor-pointer hover:bg-cyan-400 transition">🐦</div>
+                        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black cursor-pointer hover:bg-cyan-400 transition">
+                        </div>
                     </div>
 
                     {/* Legal Links */}
