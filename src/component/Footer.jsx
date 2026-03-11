@@ -1,5 +1,6 @@
 import React from 'react';
-import img from '../assets/images/map.png';
+import img from '../assets/images/end.png';
+import { FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -15,10 +16,10 @@ const Footer = () => {
                             <img
                                 src={ img  }
                                 alt="map"
-                                className="absolute inset-0  w-full h-full brightness-50 object-cover"
+                                className="absolute   w-full h-full  object-cover   "
                             />
                             <span className="relative z-10 text-[11px] text-white font-bold text-center px-4 leading-tight">
-                                Made with lots of ❤️ <br /> in San Francisco
+                                Made with lots of ❤️ in San Francisco
                             </span>
                         </div>
                     </div> 
@@ -69,8 +70,7 @@ const Footer = () => {
                     {/* Social Icons */}
                     <div className="flex space-x-4 mb-4 md:mb-0">
                         <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black font-bold cursor-pointer hover:bg-cyan-400 transition">in</div>
-                        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black cursor-pointer hover:bg-cyan-400 transition">
-                        </div>
+                        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black cursor-pointer hover:bg-cyan-400 transition"><FaTwitter /> </div>
                     </div>
 
                     {/* Legal Links */}
